@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteTrust&k=1:
+  /?Action=DeleteTrust:
     get:
       summary: ' Delete Trust '
       description: Deletes an existing trust relationship between your Microsoft AD
