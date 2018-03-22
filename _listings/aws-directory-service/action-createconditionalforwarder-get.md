@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateConditionalForwarder&k=1:
+  /?Action=CreateConditionalForwarder:
     get:
       summary: ' Create Conditional Forwarder '
       description: Creates a conditional forwarder associated with your AWS directory
