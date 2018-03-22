@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableRadius&k=1:
+  /?Action=DisableRadius:
     get:
       summary: ' Disable Radius '
       description: Disables multi-factor authentication (MFA) with the Remote Authentication
