@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableRadius&k=1:
+  /?Action=EnableRadius:
     get:
       summary: ' Enable Radius '
       description: Enables multi-factor authentication (MFA) with the Remote Authentication
