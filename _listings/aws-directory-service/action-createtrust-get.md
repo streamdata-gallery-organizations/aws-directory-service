@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateTrust&k=1:
+  /?Action=CreateTrust:
     get:
       summary: ' Create Trust '
       description: AWS Directory Service for Microsoft Active Directory allows you
