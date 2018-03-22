@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DisableSso&k=1:
+  /?Action=DisableSso:
     get:
       summary: ' Disable Sso '
       description: Disables single-sign on for a directory
