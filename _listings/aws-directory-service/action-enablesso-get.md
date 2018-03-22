@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableSso&k=1:
+  /?Action=EnableSso:
     get:
       summary: ' Enable Sso '
       description: Enables single sign-on for a directory
