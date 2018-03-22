@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateMicrosoftAD&k=1:
+  /?Action=CreateMicrosoftAD:
     get:
       summary: ' Create Microsoft A D '
       description: Creates a Microsoft AD in the AWS cloud
