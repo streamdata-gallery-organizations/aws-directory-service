@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateRadius&k=1:
+  /?Action=UpdateRadius:
     get:
       summary: ' Update Radius '
       description: Updates the Remote Authentication Dial In User Service (RADIUS)
