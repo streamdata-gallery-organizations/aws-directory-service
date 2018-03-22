@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeEventTopics&k=1:
+  /?Action=DescribeEventTopics:
     get:
       summary: ' Describe Event Topics '
       description: Obtains information about which SNS topics receive status messages
@@ -30,7 +30,8 @@ paths:
         200:
           description: OK
       tags:
-      - event topics
+      - events
+      - topics
 definitions: []
 x-collection-name: AWS Directory Service
 x-streamrank:
