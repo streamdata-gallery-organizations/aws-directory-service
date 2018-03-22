@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterEventTopic&k=1:
+  /?Action=RegisterEventTopic:
     get:
       summary: ' Register Event Topic '
       description: Associates a directory with an SNS topic
@@ -30,7 +30,8 @@ paths:
         200:
           description: OK
       tags:
-      - event topics
+      - events
+      - topics
 definitions: []
 x-collection-name: AWS Directory Service
 x-streamrank:
