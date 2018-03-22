@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=VerifyTrust&k=1:
+  /?Action=VerifyTrust:
     get:
       summary: ' Verify Trust '
       description: AWS Directory Service for Microsoft Active Directory allows you
