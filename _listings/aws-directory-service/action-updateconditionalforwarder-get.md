@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateConditionalForwarder&k=1:
+  /?Action=UpdateConditionalForwarder:
     get:
       summary: ' Update Conditional Forwarder '
       description: Updates a conditional forwarder that has been set up for your AWS
