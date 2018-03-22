@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=CreateAlias&k=1:
+  /?Action=CreateAlias:
     get:
       summary: ' Create Alias '
       description: Creates an alias for a directory and assigns the alias to the directory
