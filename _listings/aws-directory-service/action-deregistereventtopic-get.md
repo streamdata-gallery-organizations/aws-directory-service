@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterEventTopic&k=1:
+  /?Action=DeregisterEventTopic:
     get:
       summary: ' Deregister Event Topic '
       description: Removes the specified directory as a publisher to the specified
@@ -30,7 +30,8 @@ paths:
         200:
           description: OK
       tags:
-      - event topics
+      - events
+      - topics
 definitions: []
 x-collection-name: AWS Directory Service
 x-streamrank:
