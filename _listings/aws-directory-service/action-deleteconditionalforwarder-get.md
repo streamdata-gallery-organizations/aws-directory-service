@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteConditionalForwarder&k=1:
+  /?Action=DeleteConditionalForwarder:
     get:
       summary: ' Delete Conditional Forwarder '
       description: Deletes a conditional forwarder that has been set up for your AWS
