@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeTrusts&k=1:
+  /?Action=DescribeTrusts:
     get:
       summary: ' Describe Trusts '
       description: Obtains information about the trust relationships for this account
