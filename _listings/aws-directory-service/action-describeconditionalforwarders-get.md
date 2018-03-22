@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeConditionalForwarders&k=1:
+  /?Action=DescribeConditionalForwarders:
     get:
       summary: ' Describe Conditional Forwarders '
       description: Obtains information about the conditional forwarders for this account
